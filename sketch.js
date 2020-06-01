@@ -8,8 +8,9 @@ var pc;
 var indMax;
 var icon;
 
+
 function preload() {
-	img = loadImage('Nome_Empresa2.png');
+	img = loadImage('img/empresa.png');
 	pc = [loadImage('pc/0.png'), loadImage('pc/1.png'), loadImage('pc/2.png'), loadImage('pc/3.png'), loadImage('pc/4.png')];
 	icon = [loadImage('icon/1.png'), loadImage('icon/2.png'), loadImage('icon/3.png'), loadImage('icon/4.png'), loadImage('icon/B.png'), loadImage('icon/Bn.png'), loadImage('icon/S.png'), loadImage('icon/N.png'), loadImage('icon/F.png')];
 }
