@@ -10,7 +10,11 @@ var icon;
 
 
 function preload() {
+<<<<<<< HEAD
 	img = loadImage('img/empresa.png');
+=======
+	//img = loadImage('Nome_Empresa2.png');
+>>>>>>> 564dfe2b5b8447011b33a73629fd5c0671feb5e1
 	pc = [loadImage('pc/0.png'), loadImage('pc/1.png'), loadImage('pc/2.png'), loadImage('pc/3.png'), loadImage('pc/4.png')];
 	icon = [loadImage('icon/1.png'), loadImage('icon/2.png'), loadImage('icon/3.png'), loadImage('icon/4.png'), loadImage('icon/B.png'), loadImage('icon/Bn.png'), loadImage('icon/S.png'), loadImage('icon/N.png'), loadImage('icon/F.png')];
 }
@@ -31,7 +35,7 @@ var screen = -1;
 
 function draw() {
 	background(229, 252, 194);
-	image(img, windowWidth - 80, 10, 10 * 6.4, 10);
+	//image(img, windowWidth - 80, 10, 10 * 6.4, 10);
 	choose1 = false;
 	choose2 = false;
 	choose3 = false;
